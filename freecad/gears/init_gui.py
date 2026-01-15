@@ -83,11 +83,11 @@ if sys.version_info[0] == 3 and sys.version_info[1] >= 11:
         )
 
 
-class GearWorkbench(gui.Workbench):
-    """A freecad workbench aiming at gear design"""
+class TestWorkbench(gui.Workbench):
+    """A test"""
 
-    MenuText = app.Qt.translate("Workbench", "Gear")
-    ToolTip = app.Qt.translate("Workbench", "Gear Workbench")
+    MenuText = app.Qt.translate("Workbench", "Test")
+    ToolTip = app.Qt.translate("Workbench", "Tooltipping")
     Icon = os.path.join(__dirname__, "icons", "gearworkbench.svg")
     commands = [
         "FCGear_InvoluteGear",
@@ -149,4 +149,4 @@ class GearWorkbench(gui.Workbench):
         pass
 
 
-gui.addWorkbench(GearWorkbench())
+gui.addWorkbench(TestWorkbench())
