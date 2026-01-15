@@ -13,7 +13,7 @@
 
   <content>
     <workbench>
-      <classname>GearWorkbench</classname>
+      <classname>TestWorkbench</classname>
       <subdirectory>./</subdirectory>
       <freecadmin>0.19</freecadmin>
       <tag>gear</tag>
